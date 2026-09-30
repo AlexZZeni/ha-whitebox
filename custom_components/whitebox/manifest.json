@@ -1,12 +1,12 @@
 {
   "domain": "whitebox",
   "name": "ISSO Digital White Box",
-  "codeowners": ["@alexandrezeni-ms"],
+  "codeowners": ["@AlexZZeni"],
   "config_flow": true,
-  "documentation": "https://github.com/alexandrezeni-ms/ha-whitebox",
+  "documentation": "https://github.com/AlexZZeni/ha-whitebox",
   "integration_type": "device",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/alexandrezeni-ms/ha-whitebox/issues",
+  "issue_tracker": "https://github.com/AlexZZeni/ha-whitebox/issues",
   "requirements": [],
   "version": "0.1.0"
 }
