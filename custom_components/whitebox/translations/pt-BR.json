@@ -1,0 +1,110 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ISSO Digital White Box",
+        "description": "Cole o link público do medidor, por exemplo https://whitebox.isso.digital/XXXXXXXXXXXX/",
+        "data": {
+          "link": "Link público ou código",
+          "name": "Nome"
+        },
+        "data_description": {
+          "name": "Nome do dispositivo, por exemplo Ar-condicionado"
+        }
+      }
+    },
+    "error": {
+      "invalid_link": "Não encontrei um código de 12 caracteres no link.",
+      "invalid_code": "Medidor não encontrado. Confira o link.",
+      "cannot_connect": "Não foi possível acessar whitebox.isso.digital."
+    },
+    "abort": {
+      "already_configured": "Este medidor já está configurado."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "energy_today": {
+        "name": "Consumo hoje"
+      },
+      "energy_month": {
+        "name": "Consumo mês"
+      },
+      "current_neutral": {
+        "name": "Corrente neutro"
+      },
+      "power_total": {
+        "name": "Potência ativa total"
+      },
+      "apparent_power_total": {
+        "name": "Potência aparente total"
+      },
+      "reactive_power_total": {
+        "name": "Potência reativa total"
+      },
+      "power_factor_avg": {
+        "name": "Fator de potência médio"
+      },
+      "frequency": {
+        "name": "Frequência da rede"
+      },
+      "temperature": {
+        "name": "Temperatura do medidor"
+      },
+      "voltage_a": {
+        "name": "Tensão fase A"
+      },
+      "voltage_b": {
+        "name": "Tensão fase B"
+      },
+      "voltage_c": {
+        "name": "Tensão fase C"
+      },
+      "current_a": {
+        "name": "Corrente fase A"
+      },
+      "current_b": {
+        "name": "Corrente fase B"
+      },
+      "current_c": {
+        "name": "Corrente fase C"
+      },
+      "power_a": {
+        "name": "Potência ativa fase A"
+      },
+      "power_b": {
+        "name": "Potência ativa fase B"
+      },
+      "power_c": {
+        "name": "Potência ativa fase C"
+      },
+      "apparent_power_a": {
+        "name": "Potência aparente fase A"
+      },
+      "apparent_power_b": {
+        "name": "Potência aparente fase B"
+      },
+      "apparent_power_c": {
+        "name": "Potência aparente fase C"
+      },
+      "reactive_power_a": {
+        "name": "Potência reativa fase A"
+      },
+      "reactive_power_b": {
+        "name": "Potência reativa fase B"
+      },
+      "reactive_power_c": {
+        "name": "Potência reativa fase C"
+      },
+      "power_factor_a": {
+        "name": "Fator de potência fase A"
+      },
+      "power_factor_b": {
+        "name": "Fator de potência fase B"
+      },
+      "power_factor_c": {
+        "name": "Fator de potência fase C"
+      }
+    }
+  }
+}

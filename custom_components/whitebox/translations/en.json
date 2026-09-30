@@ -1,0 +1,110 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ISSO Digital White Box",
+        "description": "Paste the public link of the meter, e.g. https://whitebox.isso.digital/XXXXXXXXXXXX/",
+        "data": {
+          "link": "Public link or code",
+          "name": "Name"
+        },
+        "data_description": {
+          "name": "Device name, e.g. Air conditioning"
+        }
+      }
+    },
+    "error": {
+      "invalid_link": "Could not find a 12-character code in the link.",
+      "invalid_code": "The meter was not found. Check the link.",
+      "cannot_connect": "Could not reach whitebox.isso.digital."
+    },
+    "abort": {
+      "already_configured": "This meter is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "energy_today": {
+        "name": "Energy today"
+      },
+      "energy_month": {
+        "name": "Energy this month"
+      },
+      "current_neutral": {
+        "name": "Neutral current"
+      },
+      "power_total": {
+        "name": "Total active power"
+      },
+      "apparent_power_total": {
+        "name": "Total apparent power"
+      },
+      "reactive_power_total": {
+        "name": "Total reactive power"
+      },
+      "power_factor_avg": {
+        "name": "Average power factor"
+      },
+      "frequency": {
+        "name": "Grid frequency"
+      },
+      "temperature": {
+        "name": "Meter temperature"
+      },
+      "voltage_a": {
+        "name": "Voltage phase A"
+      },
+      "voltage_b": {
+        "name": "Voltage phase B"
+      },
+      "voltage_c": {
+        "name": "Voltage phase C"
+      },
+      "current_a": {
+        "name": "Current phase A"
+      },
+      "current_b": {
+        "name": "Current phase B"
+      },
+      "current_c": {
+        "name": "Current phase C"
+      },
+      "power_a": {
+        "name": "Active power phase A"
+      },
+      "power_b": {
+        "name": "Active power phase B"
+      },
+      "power_c": {
+        "name": "Active power phase C"
+      },
+      "apparent_power_a": {
+        "name": "Apparent power phase A"
+      },
+      "apparent_power_b": {
+        "name": "Apparent power phase B"
+      },
+      "apparent_power_c": {
+        "name": "Apparent power phase C"
+      },
+      "reactive_power_a": {
+        "name": "Reactive power phase A"
+      },
+      "reactive_power_b": {
+        "name": "Reactive power phase B"
+      },
+      "reactive_power_c": {
+        "name": "Reactive power phase C"
+      },
+      "power_factor_a": {
+        "name": "Power factor phase A"
+      },
+      "power_factor_b": {
+        "name": "Power factor phase B"
+      },
+      "power_factor_c": {
+        "name": "Power factor phase C"
+      }
+    }
+  }
+}
